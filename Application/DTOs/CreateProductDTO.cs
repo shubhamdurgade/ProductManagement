@@ -15,6 +15,6 @@ namespace ProductManagement.Application.DTOs
         public decimal Price { get; set; }
 
         [Range(0, int.MaxValue, ErrorMessage = "Stock cannot be negative")]
-        public int Stock {  get; set; }
+        public int Stock {  get; set; } 
     }
 }
